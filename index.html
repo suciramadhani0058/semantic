@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <tittle>Web Iwima</tittle>
+        <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon"/>
+    </head>
+<body>
+    <header>
+        <h1>Institut Widya Pratama</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li>Register</li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Formulir Registrasi</h1>
+        <form action="">
+            <label for="Nama Lengkap">Nama Lengkap : </label><br/>
+            <input type="text" id="namalengkap" name="namalengkap" placeholder="nama lengkap.."/><br/><br/>
+            <label for="Tempat Lahir">Tempat Lahir : </label><br/>
+            <input type="text" id="tempatlahir" name="tempatlahir" placeholder="tempat lahir.." /><br/><br/>
+            <label for="Tanggal Lahir">Tanggal Lahir : </label><br/>
+            <input type="date" id="tanggallahir" name="tanggallahir" /><br/>
+            <label for="Jenis Kelamin">Jenis Kelamin : </label><br/>
+            <input type="radio" id="laki-laki" name="jeniskelamin" value="laki-laki" />
+            <label for="laki-laki">laki-laki</label>
+            <input type="radio" id="perempuan" name="jeniskelamin" value="Perempuan" />
+            <label for="Perempuan">Perempuan</label><br/><br/>
+            <label for="Kota">Kota/Kabupaten : </label>
+            <select name="Kota" id="Kota">
+                <option value="Kota Pekalongan">Kota Pekalongan</option>
+                <option value="Kab Pekalongan">Kab Pekalongan</option>
+                <option value="Kab Pemalang">Kab Pemalang</option>
+                <option value="Kab Batang">Kab Batang</option>
+            </select><br><br>
+            <label for="alamat">Alamat Tinggal</label><br>
+            <textarea id="alamat" name="alamat"></textarea><br><br>
+            <label for="nomor_hp">Nomor Hp</label><br>
+            <input type="tel" id="nomor_hp" name="nomor_hp"><br><br>
+            <button type="submit">daftar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Institut Widya Pratama</p>
+    </footer>
+</body>
+</html> 
